@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+
+    <!-- <center><h1>Calculator</h1></center> -->
+    <div class="calculator">
+    <input class="btn-1" id="firstInput" type="text"><br><br>
+     <input class="btn" type="button" value="7" onclick="inputNumber('7')">
+     <input class="btn"  type="button" value="8" onclick="inputNumber('8')">
+     <input class="btn" type="button" value="9" onclick="inputNumber('9')">
+     <input class="btn" type="button" value="-" onclick="inputNumber('-')">
+     <br><br>
+     <input class="btn" type="button" value="4" onclick="inputNumber('4')">
+     <input class="btn" type="button" value="5" onclick="inputNumber('5')">
+     <input class="btn" type="button" value="6" onclick="inputNumber('6')">
+     <input class="btn" type="button" value="+" onclick="inputNumber('+')">
+     <br><br>
+     <input class="btn" type="button" value="1" onclick="inputNumber('1')">
+     <input class="btn" type="button" value="2" onclick="inputNumber('2')">
+     <input class="btn" type="button" value="3" onclick="inputNumber('3')">
+    <input class="btn" type="button" value="/" onclick="inputNumber('/')">
+     <br><br>
+     <input class="btn" type="button" value="." onclick="inputNumber('.')">
+     <input class="btn" type="button" value="0" onclick="inputNumber('0')">
+     <button class="btn" onclick="addNumber()">=</button>
+     <input class="btn" type="button" value="x" onclick="inputNumber('*')"><br><br>
+     <button class="btn" onclick="del()">C</button>
+    </div>
+     <script src="calculator.js"></script>
+</body>
+</html>
