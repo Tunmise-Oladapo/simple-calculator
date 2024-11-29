@@ -1,0 +1,34 @@
+.calculator{
+    text-align: center;
+    height: 58vh;
+    padding: 20px;
+    margin-top: 3%;
+    border: solid 2px;
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color: rgba(0, 0, 0, 0.562);
+}
+.btn{
+    width: 20%;
+    height: 15%;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 2opx;
+    color: red;
+    background-color: black;
+}
+.btn-1{
+    width: 100%;
+}
+
+@media (width < 481px){
+    .calculator{
+        align-items: center;
+        width: 95%;
+        overflow: hidden;
+    }
+    .btn{
+        height: 7.2em;
+    }
+}
+
